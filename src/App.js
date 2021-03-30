@@ -10,7 +10,7 @@ function App() {
       < Jumbotron title="A Warm Welcome!" />
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-xs-12">
           </div>
         </div>
         <div className="row">
