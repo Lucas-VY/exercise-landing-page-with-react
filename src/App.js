@@ -9,7 +9,7 @@ import { data } from 'jquery';
 const App = props => {
   return(
   <>
-  <div className="row">
+  <div className="row p-3">
   { cardTitles.map((title, i) => {
     return <Card key={i} text= {title}/>
   })}
