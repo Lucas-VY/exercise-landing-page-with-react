@@ -2,6 +2,7 @@ import './App.css'
 import Jumbotron from './components/Jumbotron'
 import { Card } from './components/Card';
 import { cardTitles } from "./components/data";
+import {Footer} from './components/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           })}
         </div>
       </div>
+      <Footer/>
     </>
 
   );
