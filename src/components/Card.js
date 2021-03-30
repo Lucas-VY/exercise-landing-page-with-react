@@ -3,7 +3,8 @@
 
 export const Card = ({ text }) => {
     return (
-        <div className="card col-sm-12 col-md-4">
+		<div className="col-xs-12 col-sm-4 col-md-4">
+        <div className="card">
 		<img alt="Card image cap" className="card-img-top" src="https://picsum.photos/400/400?random=1" />
 		<div className="card-body">
 			<h5 className="card-title">{text}</h5>
@@ -12,6 +13,7 @@ export const Card = ({ text }) => {
 				Go somewhere
 			</a>
 		</div>
+	</div>
 	</div>
     )
 }
