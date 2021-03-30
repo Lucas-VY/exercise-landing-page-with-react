@@ -1,7 +1,4 @@
-
-
-
-export const Card = ({ text }) => {
+export const Card = ({text}) => {
     return (
 		<div className="col-xs-12 col-sm-4 col-md-4">
         <div className="card">
