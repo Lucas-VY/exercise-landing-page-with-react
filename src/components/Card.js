@@ -1,6 +1,6 @@
 export const Card = ({text}) => {
     return (
-		<div className="col-xs-12 col-sm-3 col-md-3">
+		<div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
         <div className="card">
 		<img alt="Card image cap" className="card-img-top" src="https://picsum.photos/400/400?random=1" />
 		<div className="card-body">
