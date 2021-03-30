@@ -10,7 +10,6 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            hola
           </div>
         </div>
         <div className="row">
